@@ -1,0 +1,9 @@
+git init
+
+git add *files*
+
+git commit -m "COMMENT"
+
+git remote add origin https://github.com/ICYN/*REPO*
+
+git push origin master
