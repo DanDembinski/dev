@@ -1,0 +1,156 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "011",
+	"alerts": [
+		{
+		"type": "FLO",
+		"description": "Flood Warning",
+		"date": "12:08 PM EDT on March 14, 2015",
+		"date_epoch": "1426349280",
+		"expires": "10:19 AM EDT on March 15, 2015",
+		"expires_epoch": "1426429140",
+		"tz_short":"EDT",
+		"tz_long":"America/New_York",
+		"message": "\u000AThe National Weather Service in Cleveland has issued a \u000A\u000A* Flood Warning for \u000A the Cuyahoga river at Independence\u000A* from this afternoon until Sunday morning\u000A* at 11:30 am Saturday the stage was...15.5 feet \u000A* minor flooding is forecast \u000A* flood stage is 16.0 feet \u000A* forecast to rise above flood stage by this afternoon and rise to \u000A near 16.7 feet by this evening.The river will fall below flood \u000A stage by early Sunday morning.\u000A* At 17.0 feet...water reaches Murray and fosdick roads in Valley \u000A View. Portions of exchange Road, Wall Street, and Cloverleaf Road \u000A inundated.\u000A\u000A\u000ALat...Lon 4145 8170 4146 8166 4128 8152 4128 8161\u000A\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "FL",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"OH",
+		"ZONE":"011"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "WAT",
+		"description": "Areal Flood Watch",
+		"date": "4:46 am EDT on March 14, 2015",
+		"date_epoch": "1426322760",
+		"expires": "4:00 PM EDT on March 15, 2015",
+		"expires_epoch": "1426449600",
+		"tz_short":"EDT",
+		"tz_long":"America/New_York",
+		"message": "\u000A...Flood Watch remains in effect through Sunday afternoon...\u000A\u000AThe Flood Watch continues for\u000A\u000A* portions of Ohio and northwest Pennsylvania...including the \u000A following areas...in Ohio...Ashtabula inland...Ashtabula \u000A Lakeshore...Cuyahoga...Erie OH...Geauga...Huron...Lake... \u000A Lorain...Lucas...Mahoning...Medina...Ottawa...Portage... \u000A Sandusky...Seneca...Summit...Trumbull and wood. In northwest \u000A Pennsylvania...Crawford PA...northern Erie and southern Erie. \u000A\u000A* Through Sunday afternoon\u000A\u000A* ice continues to breakup on area rivers. When the ice moves\u000A downstream it can jam...which result in flooding...most often in\u000A upstream locations due to backwater. The still Frozen Lake Erie\u000A will be a barrier to any ice trying to advance downstream for\u000A the rivers and creeks that flow into the lake.\u000A\u000A* Rain will end from west to east this morning. Rainfall amounts\u000A in the watch area will range from two tenths to half an inch.\u000A The rainfall and warmer temperatures will eliminate the\u000A snow pack completely from all but the snowbelt counties. This\u000A combined runoff will increase the flood threat across the area\u000A this weekend...but especially for those communities already\u000A impacted by ice jams. River levels could rise very abruptly\u000A which could lead to the development of additional ice jams.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AIce jam flooding is difficult to predict...and conditions can\u000Achange rapidly as a jam forms and breaks. The worst flooding\u000Aassociated with ice jams is often immediately upstream of the jam\u000Alocation. If you live along or near rivers prone to ice jams...be\u000Aprepared to act quickly.\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "FA",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"OH",
+		"ZONE":"003"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"006"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"007"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"008"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"009"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"010"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"011"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"012"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"013"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"014"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"018"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"019"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"020"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"021"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"022"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"023"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"033"
+		}
+		,
+		{
+		"state":"OH",
+		"ZONE":"089"
+		}
+		,
+		{
+		"state":"PA",
+		"ZONE":"001"
+		}
+		,
+		{
+		"state":"PA",
+		"ZONE":"002"
+		}
+		,
+		{
+		"state":"PA",
+		"ZONE":"003"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}
