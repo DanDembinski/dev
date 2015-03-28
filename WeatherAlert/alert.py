@@ -6,7 +6,7 @@ count=0
 hue.connect()
 
 today=date.today()
-while count < 450:
+while count < 495:
 	if today!=date.today():
 		count=0
 		today=date.today()
