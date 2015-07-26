@@ -1,0 +1,9 @@
+import requests,json
+
+url='https://api.pushbullet.com/v2/users/me'
+headers={'Authorization: Bearer LTclkzYutWdyzEMo9TxHmPARL36k9dHQ'}
+payload='{"type": "note", "title": "Weather Alert", "body":"test"}'
+
+#r=requests.post(url,headers=headers)
+
+
