@@ -1,0 +1,8 @@
+##Creates empty directory structure based on tutorials at http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+##Also set virtual Python environment with python -m venv [[name of environment]]
+
+mkdir app
+mkdir app/static
+mkdir app/templates
+mkdir tmp
