@@ -5,3 +5,6 @@ lib
 include
 lib64
 pyvenv.cfg
+
+#Python
+*.pyc
