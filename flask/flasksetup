@@ -2,7 +2,18 @@
 
 ##Also set virtual Python environment with python -m venv [[name of environment]]
 
+name=$1
+
 mkdir app
 mkdir app/static
 mkdir app/templates
 mkdir tmp
+
+python -m venv $name --system-site-packages
+
+echo -e "#!"$name"/bin/python\nfrom app import app\napp.run(debug=True)" > run.py
+chmod 700 run.py
+
+echo -e "from flask import Flask\napp = Flask(__name__)\nfrom app import views" > app/__init__.py
+
+echo -e "from app import app\n@app.route('/')\n@app.route('/index')\ndef index():\n	return \"Hello\" " > app/views.py
