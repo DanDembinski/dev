@@ -5,12 +5,12 @@ bridge = Bridge(device={'ip':'192.168.1.106'}, user={'name':username})
 
 def createConfig():
 	created = False
-	print 'Press the button'
+	print("Press the button")
 	while not created:
 		resource = {'user':{'devicetype': 'beautifulhue', 'name': username}}
 		response = bridge.config.create(resource)['resource']
 		if 'error' in response[0]:
-			print 'Unhandled error creating config'
+			print("Unhandled error creating config")
 			sys.exit(response)
 		else:
 			created = True
@@ -23,7 +23,7 @@ def alert():
 	red={'which':2,'data':{'state':{'xy':[0.675,0.322],'sat':255,'hue':65280}}}
 	bridge.light.update(red)
 	time.sleep(1.5)
-	print red
+	print(red)
 	resource={
  	       'which':2,
 		'data':{
@@ -42,7 +42,7 @@ def connect():
 	response = getSystemData()
 
 	if 'lights' in response:
-		print 'Connected to the Hub'+'\n'
+		print("Connected to the Hub")+'\n'
 		return
 	elif 'error' in response[0]:
 		error = response[0]['error']
@@ -60,10 +60,10 @@ def allOff():
 def main():
 	connect()
 	while True:
-		print '1.) alert'
-		print '2.) All Loop'
-		print '3.) All Off'
-		choice=input('Make your choice:')
+		print("1.) alert")
+		print("2.) All Loop")
+		print("3.) All Off")
+		choice=input("Make your choice:")
 		if choice == 1:
 			alert()
 		elif choice == 2:
@@ -71,7 +71,7 @@ def main():
 		elif choice == 3:
 			allOff()
 		else:
-			print 'No'
+			print("No")
 			exit()
 main()
 
