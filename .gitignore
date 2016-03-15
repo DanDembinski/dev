@@ -9,3 +9,9 @@ __pycache__
 
 #Python
 .pyc
+
+#misc
+homeio.json
+
+#flask
+microblog/tmp
