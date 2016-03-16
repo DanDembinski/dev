@@ -1,0 +1,11 @@
+-- fields for logbook
+	- Time
+	- Pilotage
+	- Course
+	- Speed
+	- Log
+	- Miles
+	- Comments
+	- Date
+	- Port of Origin
+	- Port of Call
